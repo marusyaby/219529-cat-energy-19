@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Maria Hrol](https://up.htmlacademy.ru/adaptive/19/user/219529).
-* Наставник: `Неизвестно`.
+* Наставник: [Без наставника](https://htmlacademy.ru/intensive/adaptive).
 
 ---
 
