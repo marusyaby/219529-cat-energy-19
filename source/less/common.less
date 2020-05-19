@@ -1,0 +1,75 @@
+body {
+  overflow-x: hidden;
+  min-width: @screen-mobile;
+  margin: 0;
+  padding: 0;
+
+  font-family: @font-default;
+  .set-font();
+
+  background-color: @color-bg;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.link {
+  font-family: @font-accent;
+  .set-font(16px, 16px, @color-text-accent, 400, uppercase);
+  transition: 0.1s ease-in-out;
+
+  &:hover,
+  &:focus {
+    cursor: pointer;
+  }
+
+  &:active {
+    color: fade(@color-text-accent, 30%);
+  }
+}
+
+.button {
+  font-family: @font-accent;
+  .set-font(14px, 18px, @color-text-ondark, 400, uppercase);
+  background-color: @color-button;
+  border: 0;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  transition: 0.1s ease-in-out;
+
+  &:hover {
+    background-color: @color-button-hover;
+  }
+
+  &:focus,
+  &:active {
+    color: fade(@color-text-ondark, 30%);
+  }
+}
+
+.section-title {
+  font-family: @font-accent;
+  .set-font(36px, 60px, @color-text-accent);
+}

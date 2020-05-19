@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Каталог Кэт энерджи</title>
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="header">
@@ -15,14 +16,14 @@
         <div class="wrapper">
           <button class="nav__toggle" type="button">Открыть меню</button>
           <ul class="nav__list">
-            <li class="nav__item nav__item--active">
-              <a class="nav__link" href="index.html">Главная</a>
+            <li class="nav__item">
+              <a class="link nav__link" href="index.html">Главная</a>
             </li>
             <li class="nav__item">
-              <a class="nav__link">Каталог продукции</a>
+              <a class="link nav__link nav__link--active">Каталог продукции</a>
             </li>
             <li class="nav__item">
-              <a class="nav__link" href="form.html">Подбор программы</a>
+              <a class="link nav__link" href="form.html">Подбор программы</a>
             </li>
           </ul>
         </div>
@@ -31,9 +32,9 @@
 
     <main class="main">
       <div class="wrapper">
-        <h1 class="main__title">Каталог продукции</h1>
+        <h1 class="section-title main__title">Каталог продукции</h1>
         <section class="product">
-          <h2 class="visually hidden">Список товаров</h2>
+          <h2 class="visually-hidden">Список товаров</h2>
 
           <article class="product__item">
             <img class="product__image" src="https://via.placeholder.com/140x144" alt="Cat Energy Pro 500 г">
@@ -280,8 +281,9 @@
         </ul>
 
         <div class="footer__copyright">
-          <a class="footer__copyright-link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
-          <img class="footer__copyright-logo" src="https://via.placeholder.com/27x34" alt="HTML Academy">
+          <a class="footer__copyright-link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy
+            <img class="footer__copyright-logo" src="https://via.placeholder.com/27x34" alt="HTML Academy">
+          </a>
         </div>
       </div>
     </footer>

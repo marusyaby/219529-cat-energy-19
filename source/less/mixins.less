@@ -1,0 +1,27 @@
+.set-font(
+  @size: 14px,
+  @line-height: 18px,
+  @color: @color-text-default,
+  @weight: 400,
+  @transform: none
+) {
+  font-size: @size;
+  line-height: @line-height;
+  color: @color;
+  font-weight: @weight;
+  text-transform: @transform;
+}
+
+.set-padding(
+  @padding-left: 20px,
+  @padding-right: 20px
+) {
+  padding-left: @padding-left;
+  padding-right: @padding-right;
+}
+
+.set-list-style-none() {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
