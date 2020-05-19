@@ -1,0 +1,38 @@
+.form {
+  font-family: @font-accent;
+  .set-font(14px, 18px, @color-text-accent, 400, uppercase);
+}
+
+.form__field {
+  border: 0;
+  .set-padding();
+}
+
+.form__field--cat {
+  border-bottom: 1px solid @color-divider-form;
+}
+
+.form__field--goal {
+  border-bottom: 1px solid @color-divider-form;
+}
+
+.form__field-title {
+  .set-font(24px, 24px, @color-text-accent, 400);
+}
+
+.form__field input,
+.form__field textarea {
+  font-family: @font-accent;
+  .set-font(16px, 18px, @color-text-default, 400, uppercase);
+  border: 1px solid @color-input-border;
+}
+
+.form__submit {
+  text-align: center;
+  .set-padding();
+}
+
+.form__button {
+  display: block;
+  width: 100%;
+}
