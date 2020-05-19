@@ -1,0 +1,29 @@
+.nav__list {
+  .set-list-style-none();
+  text-align: center;
+  border-top: 1px solid @color-divider;
+}
+
+.nav__item {
+  border-bottom: 1px solid @color-divider;
+}
+
+.nav__link {
+  .set-font(20px, 20px, @color-text-accent, 500, uppercase);
+
+  &:hover,
+  &:focus {
+    color: fade(@color-text-accent, 60%);
+  }
+
+  &:active {
+    color: fade(@color-text-accent, 30%);
+  }
+}
+
+.nav__link--active {
+  &:hover {
+    color: @color-text-accent;
+    cursor: auto;
+  }
+}

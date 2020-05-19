@@ -1,0 +1,19 @@
+.footer {
+  background-color: @color-bg-block;
+  .set-padding();
+}
+
+.footer__social-list {
+  .set-list-style-none();
+  border-top: 1px solid @color-element;
+  border-bottom: 1px solid @color-element;
+}
+
+.footer__copyright-link {
+  .set-font(16px, 16px);
+  transition: 0.1s, ease-in-out;
+
+  &:active {
+    color: fade(@color-text-default, 30%);
+  }
+}
